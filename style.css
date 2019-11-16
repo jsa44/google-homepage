@@ -1,0 +1,29 @@
+
+img {
+    display: block;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    /* could also write as
+     margin: 200px auto 0; */
+}
+
+.text {
+    text-align: center;
+    margin: 35px;
+}
+
+.text input {
+    padding: 12px 10px;
+    width: 500px;
+}
+
+.ibcenter {
+    text-align: center;
+}
+
+.ibcenter div {
+    display: inline-block;
+    text-align: left;
+}
