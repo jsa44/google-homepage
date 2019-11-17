@@ -1,12 +1,41 @@
 
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.rtop {
+    float: right;
+    padding: 0 50px 0 0;
+}
+
+.topbar {
+    padding: 20px 0 0 30px;
+}
+
+.botbar {
+    padding: 0 0 20px 30px;
+}
+
+.rbot {
+    float: right;
+    padding: 0 50px 0 0;
+}
+
 ul {
     list-style-type: none;
+    display: inline;
     margin: 0;
     padding: 0;
 }
 
 li {
-    
+    display: inline;
+    padding: 0 20px 0 0;
 }
 
 img {
@@ -28,6 +57,7 @@ img {
     padding: 12px 10px;
     width: 500px;
 }
+
 
 .ibcenter {
     text-align: center;
