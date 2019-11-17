@@ -1,7 +1,12 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
 
-a:link {
+a {
     text-decoration: none;
-    color:black;
+    color: #000;
+    opacity: 0.75
 }
 
 a:hover {
@@ -16,15 +21,24 @@ ul {
 
 li {
     display: inline;
-    padding: 0 20px 0 0;
+    padding: 0 15px 0 0;
 }
 
 .topbar {
-    padding: 20px 0 0 20px;
+    padding: 15px 0 0 15px;
 }
 .rtop {
     float: right;
     padding: 0 20px 0 0;
+}
+.signin {
+    float: right;
+    border: 1px solid #4285f4;
+    padding: 5px;
+    margin: 0 20px 0 0;
+    color: #fff;
+    background-color: #4683ea;
+    font-weight: bold;
 }
 
 .botbar {
@@ -32,7 +46,7 @@ li {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 10px 0 20px 0px;
+    padding: 10px 0 15px 10px;
     border-top-style: solid;
     border-width: 1px;
     border-color: LightGray;
@@ -40,12 +54,12 @@ li {
 
 .rbot {
     float: right;
-    padding: 0 20px 0 0;
+    padding: 0 30px 0 0;
 }
 
 img {
     display: block;
-    margin-top: 200px;
+    margin-top: 160px;
     margin-bottom: 0px;
     margin-right: auto;
     margin-left: auto;
@@ -55,12 +69,21 @@ img {
 
 .text {
     text-align: center;
-    margin: 35px;
+    margin: 30px;
 }
 
 .text input {
-    padding: 12px 10px;
-    width: 500px;
+    padding: 10px 10px;
+    width: 450px;
+    height: 22px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: LightGray;
+    border-radius: 25px;
+}
+
+.text input:hover{
+    box-shadow: 5px 5px 5px grey;
 }
 
 .ibcenter {
@@ -73,7 +96,10 @@ img {
     padding: 0 0 15px 15px;
 }
 
-.ibcenter div input {
-    padding: 5px 10px;
+.ibcenter input {
+    padding: 10px 15px;
     font-size: 14px;
+    color:#5F6368;
+    background-color: #f2f2f2;
+    border-width: 0px;
 }
